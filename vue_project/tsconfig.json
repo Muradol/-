@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "types": ["vite/client"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,  // 可选
+    "strict": true         // 可选
+  }
+}
